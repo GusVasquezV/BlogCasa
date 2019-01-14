@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"con",
+				"container"
+			],
+			[
+				"th",
+				"thead\tTag"
+			],
+			[
 				"name",
 				"name"
 			],
@@ -23,33 +31,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "routes/web.php",
-			"settings":
-			{
-				"buffer_size": 808,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resources/views/web/post.blade.php",
-			"settings":
-			{
-				"buffer_size": 678,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/Web/PageController.php",
-			"settings":
-			{
-				"buffer_size": 1067,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -88,27 +69,36 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/blog",
-		"/C/xampp/htdocs/blog/app",
-		"/C/xampp/htdocs/blog/app/Http",
-		"/C/xampp/htdocs/blog/app/Http/Controllers",
-		"/C/xampp/htdocs/blog/app/Http/Controllers/Web",
-		"/C/xampp/htdocs/blog/resources",
-		"/C/xampp/htdocs/blog/resources/sass",
-		"/C/xampp/htdocs/blog/resources/views",
-		"/C/xampp/htdocs/blog/resources/views/layouts",
-		"/C/xampp/htdocs/blog/resources/views/web",
-		"/C/xampp/htdocs/blog/routes"
+		"/C/xampp/htdocs/intranet"
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/blog/resources/views/web/post.blade.php",
+		"/C/xampp/htdocs/blog/app/Tag.php",
+		"/C/xampp/htdocs/blog/app/Post.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/Admin/TagController.php",
 		"/C/xampp/htdocs/blog/resources/views/layouts/app.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/admin/tags/partials/form.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/admin/tags/edit.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/admin/tags/show.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/admin/tags/create.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/admin/tags/index.blade.php",
+		"/C/xampp/htdocs/blog/config/app.php",
+		"/C/xampp/htdocs/blog/composer.json",
+		"/C/xampp/htdocs/blog/app/Http/Requests/TagUpdateRequest.php",
+		"/C/xampp/htdocs/blog/app/Http/Requests/TagStoreRequest.php",
+		"/C/xampp/htdocs/blog/resources/views/Admin/tag/show.blade.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/Auth/LoginController.php",
+		"/C/xampp/htdocs/blog/resources/views/Admin/tag/edit.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/Admin/tag/partials/form.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/Admin/tag/index.blade.php",
 		"/C/xampp/htdocs/blog/routes/web.php",
-		"/C/xampp/htdocs/blog/resources/views/post.blade.php",
-		"/C/xampp/htdocs/blog/app/Http/Controllers/Web/PageController.php",
-		"/C/xampp/htdocs/blog/resources/views/web/posts.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/Admin/tag/create.blade.php",
 		"/C/xampp/htdocs/blog/.env",
+		"/C/xampp/htdocs/blog/resources/sass/app.scss",
+		"/C/xampp/htdocs/blog/resources/views/web/post.blade.php",
+		"/C/xampp/htdocs/blog/app/Http/Controllers/Web/PageController.php",
+		"/C/xampp/htdocs/blog/resources/views/post.blade.php",
+		"/C/xampp/htdocs/blog/resources/views/web/posts.blade.php",
 		"/C/xampp/htdocs/laravel-ajax/app/Http/Controllers/HomeController.php",
 		"/C/xampp/htdocs/laravel-ajax/public/js/script.js",
 		"/C/xampp/htdocs/laravel-ajax/resources/views/home.blade.php",
@@ -118,11 +108,9 @@
 		"/C/xampp/htdocs/laravel-ajax/laravel",
 		"/C/xampp/htdocs/blog/app/Providers/AppServiceProvider.php",
 		"/C/xampp/htdocs/blog/resources/views/home.blade.php",
-		"/C/xampp/htdocs/blog/app/Tag.php",
 		"/C/xampp/htdocs/blog/app/User.php",
 		"/C/xampp/htdocs/blog/app/Category.php",
 		"/C/xampp/htdocs/blog/database/seeds/PostsTableSeeder.php",
-		"/C/xampp/htdocs/blog/app/Post.php",
 		"/C/xampp/htdocs/blog/database/seeds/TagsTableSeeder.php",
 		"/C/xampp/htdocs/blog/database/factories/PostFactory.php",
 		"/C/xampp/htdocs/blog/database/seeds/UsersTableSeeder.php",
@@ -140,11 +128,11 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 104.0,
 		"where_history":
 		[
 		]
@@ -154,6 +142,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"scrip"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -171,94 +160,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "routes/web.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 808,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								806,
-								806
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resources/views/web/post.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 678,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								574,
-								574
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/Web/PageController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1067,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								796,
-								796
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 257.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -339,7 +242,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 231.0,
+	"side_bar_width": 409.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
